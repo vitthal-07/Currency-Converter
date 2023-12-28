@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F4AFB4;
+}
+
+.currency-container {
+    background-color: #C9B7AD;
+    color: black;
+    padding: 20px;
+    height: 60vh;
+    min-width: 60vw;
+    border-radius: 24px;
+    border: 2px solid black;
+}
+
+.converter-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.conversion-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.exchange-icon {
+    font-size: 3rem;
+}
+
+.conversion-from,
+.conversion-to {
+    min-width: 40%;
+}
+
+.select-box {
+    display: flex;
+    width: 300px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.select-box img {
+    height: 70px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.select-box select {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #797D81;
+}
+
+.conversion-results {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conversion-results input {
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 26px;
+    font-size: 3.5rem;
+    color: black;
+    background-color: #94A89A;
+}
